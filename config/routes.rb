@@ -13,11 +13,11 @@ Rails.application.routes.draw do
       member do
         put :has_not_done_a_chore_this_round
         put :has_done_a_chore_this_round
-
       end
-      end
-        resources :jobs do
     end
+  end
+  
+  resources :jobs do
   end
 
 
