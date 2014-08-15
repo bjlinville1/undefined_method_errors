@@ -16,8 +16,7 @@ Rails.application.routes.draw do
       end
     end
   end
-  
-  resources :jobs do
+    resources :jobs do
   end
 
 
