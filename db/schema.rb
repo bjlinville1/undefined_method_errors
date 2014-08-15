@@ -11,6 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+
 ActiveRecord::Schema.define(version: 20140815144945) do
 
   create_table "delayed_jobs", force: true do |t|
@@ -41,7 +42,7 @@ ActiveRecord::Schema.define(version: 20140815144945) do
     t.string   "frequency"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "volunteer_id"
+    t.integer  "group_id"
   end
 
   create_table "volunteer_jobs", force: true do |t|
